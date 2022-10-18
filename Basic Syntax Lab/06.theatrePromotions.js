@@ -1,4 +1,4 @@
-function solve(day, age) {
+function theatrePromotions(day, age) {
     let price;
     if (age >= 0 && age <= 122) {
         switch (day) {
@@ -32,5 +32,5 @@ function solve(day, age) {
         console.log("Error!");
     }
 }
-solve('Weekday', 
+theatrePromotions('Weekday', 
 42)
