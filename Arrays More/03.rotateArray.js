@@ -7,7 +7,6 @@ function rotateArray(array) {
         let last = array.pop();
         array.unshift(last);       
     }
-    console.log(array.join(' '));   
-    
+    console.log(array.join(' '));       
 }
 rotateArray(['Banana', 'Orange', 'Coconut', 'Apple', '15'])
