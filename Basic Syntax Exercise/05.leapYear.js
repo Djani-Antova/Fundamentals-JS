@@ -4,10 +4,6 @@ function leapYear(num) {
     } else {
         console.log('no');
     }
-
-    let a = 5;
-    const b = 8;
-
 }
 leapYear(1984)
 leapYear(2003)
