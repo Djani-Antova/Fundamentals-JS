@@ -6,6 +6,5 @@ function foreignLanguage(country) {
     } else {
         console.log('unknown');
     }
-
 } 
 foreignLanguage("Spain")
