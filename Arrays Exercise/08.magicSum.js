@@ -1,7 +1,7 @@
 function magicSum(array, n) {
 
     let l = array.length;
-   // let res = [];
+    let res = [];
 
     for (let i = 0; i < l; i++) {
 
@@ -11,11 +11,9 @@ function magicSum(array, n) {
             //    res.push(array[i]);
            //     res.push(array[j]);
                 console.log(`${array[i]} ${array[j]}`);
-
-            }
-            
+            }            
         }
     }
-//console.log(res);
+console.log(res);
 }
 magicSum([1, 7, 6, 2, 19, 23], 8)
