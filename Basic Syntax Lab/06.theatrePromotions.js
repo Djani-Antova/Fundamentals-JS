@@ -27,7 +27,6 @@ function theatrePromotions(day, age) {
                 break;
         }
         console.log(`${price}$`);
-
     } else {
         console.log("Error!");
     }
