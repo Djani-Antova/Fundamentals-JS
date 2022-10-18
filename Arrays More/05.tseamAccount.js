@@ -8,24 +8,24 @@ function tseamAccount(array) {
             switch (command) {
                 case "Install":
                     if (!initialAccount.includes(game)) {
-                        initialAccount.push(game)
+                        initialAccount.push(game);
                     }
                     break;
                 case "Uninstall":
                     if (initialAccount.includes(game)) {
                         let index = initialAccount.indexOf(game);
-                        initialAccount.splice(index, 1)
+                        initialAccount.splice(index, 1);
                     }
                     break;
                 case "Update":
                     if (initialAccount.includes(game)) {
                         let index = initialAccount.indexOf(game);
                         initialAccount.splice(index, 1);
-                        initialAccount.push(game)
+                        initialAccount.push(game);
                     }
                     break;
                 case "Expansion":
-                    let gameParts = game.split("-")
+                    let gameParts = game.split("-");
                     let oldVersion = gameParts[0];
                     let newVersion = gameParts.join(':');
 
@@ -37,9 +37,7 @@ function tseamAccount(array) {
             }
         }
     }
-
     console.log(initialAccount.join(' '));
-
 }
 // tseamAccount(['CS WoW Diablo',
 //     'Install LoL',
