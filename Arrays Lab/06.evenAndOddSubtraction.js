@@ -11,7 +11,6 @@ function evenAndOddSubtraction(array) {
         }
     }
     console.log(sumEven - sumOdd);
-    }
-    
+    }  
 
 evenAndOddSubtraction([3,5,7,9])

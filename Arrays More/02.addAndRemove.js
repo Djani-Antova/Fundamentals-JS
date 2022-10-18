@@ -10,7 +10,6 @@ function addAndRemove(commands) {
             myArray.pop(number);
         }
     }
-
     console.log(myArray.length > 0 ? myArray.join(' ') : 'Empty');
 }
 addAndRemove(['add', 'add', 'remove','add', 'add'])

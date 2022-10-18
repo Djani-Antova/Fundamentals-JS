@@ -9,7 +9,6 @@ function solve(num) {
         sum += a;
         a += 2;
         numberPrints += 1;
-
     }
     console.log(`Sum: ${sum}`);
 
