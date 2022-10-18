@@ -1,4 +1,4 @@
-function solve(country) {
+function foreignLanguage(country) {
     if(country == "USA" || country == "England"  ) {
         console.log("English ");
     } else if (country === "Spain" || country === "Argentina" || country === "Mexico" ) {
@@ -7,4 +7,5 @@ function solve(country) {
         console.log('unknown');
     }
 
-} solve("Spain")
+} 
+foreignLanguage("Spain")
