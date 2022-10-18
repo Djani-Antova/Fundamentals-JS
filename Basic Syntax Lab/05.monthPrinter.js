@@ -13,8 +13,7 @@ function monthPrinter(num) {
             case 10: console.log("October"); break;
             case 11: console.log("November"); break;
             case 12: console.log("December"); break;
-            default: console.log("Error!"); break;
-        }
+            default: console.log("Error!"); break;        }
     } else {
         console.log("Error");
     }
