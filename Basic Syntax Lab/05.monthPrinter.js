@@ -1,4 +1,4 @@
-function solve(num) {
+function monthPrinter(num) {
     if (num >= 1 && num <= 12) {
         switch (num) {
             case 1: console.log("January"); break;
@@ -18,4 +18,5 @@ function solve(num) {
     } else {
         console.log("Error");
     }
-    }    solve(-2)
+}    
+monthPrinter (-2)
