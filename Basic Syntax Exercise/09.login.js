@@ -1,7 +1,6 @@
 function login(input) {
 
     let userName = input[0];
-
     let l = input[0].length;
     let password = '';
     let count = 0;
